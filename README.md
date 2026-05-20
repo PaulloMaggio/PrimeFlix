@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🎬 Prime Flix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Prime Flix** é uma aplicação web interativa desenvolvida em React para os entusiastas do cinema. A plataforma consome dados de filmes em tempo real, permitindo aos usuários navegar pelas produções em destaque, acessar detalhes detalhados (sinopse, avaliação) e gerenciar uma lista personalizada de "Meus Filmes" favoritados através do armazenamento local (LocalStorage).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Demonstração do Sistema
 
-### `npm start`
+Abaixo estão as principais interfaces da aplicação, projetadas com foco em uma experiência de usuário limpa e intuitiva:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🏠 Painel Principal (Catálogo de Filmes)
+Interface inicial que exibe os filmes em alta, com opções rápidas para acessar os detalhes de cada produção.
+![Painel Principal](./assets/telaindex.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📂 Seção Meus Filmes (Favoritos)
+Espaço dedicado onde o usuário gerencia sua lista personalizada, podendo visualizar detalhes ou remover títulos salvos.
+![Meus Filmes](./assets/telameusfilmes.jpg)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run build`
+- **Biblioteca Core:** React.js (Componentização e Hooks)
+- **Roteamento:** React Router DOM (Navegação SPA entre catálogo e favoritos)
+- **Consumo de API:** Axios para requisições assíncronas HTTP
+- **Persistência de Dados:** LocalStorage API para salvar os filmes favoritos no navegador do usuário
+- **Estilização:** CSS3 puro com foco em design responsivo e Dark Mode moderno
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Funcionalidades Principais
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Listagem Dinâmica:** Busca automática dos filmes mais populares através de integração com API de cinema.
+- **Persistência de Favoritos:** Salve seus filmes preferidos para assistir mais tarde. Os dados não somem ao atualizar a página.
+- **Gerenciamento de Lista:** Interface simplificada para exclusão de filmes salvos na aba "Meus Filmes".
+- **Feedback Visual:** Alertas dinâmicos ao salvar ou remover itens da lista.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Como Executar o Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Siga os passos abaixo para rodar a aplicação localmente em ambiente de desenvolvimento.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/) (Versão LTS recomendada).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Passo a Passo
 
-## Learn More
+1. **Clonar o Repositório:**
+   ```bash
+   git clone [https://github.com/PaulloMaggio/PrimeFlix.git](https://github.com/PaulloMaggio/PrimeFlix.git)
+   cd PrimeFlix
+Instalar as Dependências:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bash
+npm install
+Iniciar o Servidor de Desenvolvimento:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bash
+npm start
+O painel será aberto automaticamente no seu navegador pelo endereço http://localhost:3000.
 
-### Code Splitting
+👤 Desenvolvedor
+Projeto desenvolvido por Paulo Magio. Se quiser trocar ideias sobre desenvolvimento de software ou acompanhar minha evolução na stack, conecte-se comigo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+LinkedIn: linkedin.com/in/paulo-magio
 
-### Analyzing the Bundle Size
+GitHub: @PaulloMaggio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💎 Prime Flix — Seu guia definitivo de cinema.
